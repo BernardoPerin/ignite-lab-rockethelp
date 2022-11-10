@@ -77,7 +77,7 @@ export function Home() {
                 <ChatTeardropText color={colors.gray[300]} size={40} />
                 <Text color="gray.300" fontSize="xl" mt={6} textAlign="center">
                   Você ainda não possui {'\n'}
-                  solicitações
+                  solicitações {statusSelected === 'open' ? 'em andamento' : 'finalizadas'}
                 </Text>
             </Center>
           )}
