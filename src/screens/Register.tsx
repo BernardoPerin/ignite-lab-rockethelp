@@ -10,11 +10,21 @@ export function Register() {
       <Header title="Nova solicitação"/>
 
       <Input 
+        placeholder="Número do patrimônio"
+        mt={4}
+      />
+
+      <Input 
         placeholder="Descrição do problema"
         flex={1}
-        ml={5}
+        mt={5}
         multiline
-        textAlign="top"
+        textAlignVertical='top'
+      />
+
+      <Button 
+        title="Cadastrar"
+        mt={5}
       />
     </VStack>
   );
